@@ -71,11 +71,15 @@ header {
   margin: 5.5rem 0rem;
 }
 
+.hero-content {
+  padding: 4rem 0rem;
+}
+
 .hero-text h1 {
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
-  line-height: 50px;
+  font-size: 33px;
+  line-height: 40px;
   color: #333333;
   margin-bottom: 2rem;
 }
@@ -83,7 +87,7 @@ header {
 .hero-text p {
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 32px;
   color: #333333cc;
   margin-bottom: 2rem;
@@ -91,7 +95,7 @@ header {
 
 .btn--share {
   height: 60px;
-  width: 230px;
+  width: 220px;
   font-weight: 500;
   font-size: 16px;
   line-height: 18px;
@@ -130,41 +134,6 @@ header {
 .content div img {
   max-width: 100%;
 }
-
-/* .content div img:nth-child(1) {
-  width: 150px;
-  height: 75px;
-}
-
-.content div img:nth-child(2) {
-  width: 260px;
-  height: 78px;
-}
-
-.content div img:nth-child(3) {
-  width: 164px;
-  height: 164px;
-}
-
-.content div img:nth-child(4) {
-  width: 52px;
-  height: 52px;
-}
-
-.content div img:nth-child(5) {
-  width: 54px;
-  height: 54px;
-}
-
-.content div img:nth-child(6) {
-  width: 88px;
-  height: 88px;
-}
-
-.content div img:nth-child(7) {
-  width: 90px;
-  height: 70px;
-} */
 
 
 /* SECTIONS */
@@ -209,36 +178,47 @@ header {
 }
 
 .text-content {
-  padding: 8rem 3rem;
+  padding: 8rem 5rem 8rem 0rem;
 }
 
 .text--content {
-  padding: 8rem 0rem;
+  padding: 8rem 0rem 8rem 4rem;
+}
+
+.text--content h3 {
+  width: 100% !important;
+}
+
+.text__content {
+  padding: 8rem 4rem 8rem 0rem;
+}
+
+.text__content h3 {
+  width: 100% !important;
 }
 
 .text-content h3 {
-  width: 90%;
+  width: 70%;
   margin-bottom: 2rem;
   font-style: normal;
   font-weight: normal;
-  font-size: 35px;
-  line-height: 48px;
+  font-size: 33px;
+  line-height: 40px;
   color: #333333;
 }
 
 .text-content p {
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 30px;
   color: #454545cc;
 }
 
 .video {
   float: right;
-  width: 90%;
-  height: 400px;
-  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
 }
 
 .second-section--video {
@@ -319,6 +299,93 @@ article p {
   color: #FFFFFF;
 }
 
+footer {
+  width: 100%;
+  height: 100%;
+}
+
+footer .footer-top {
+  justify-content: space-between;
+}
+
+th, .top-left-head {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 30px;
+  color: #455A64;
+}
+
+
+tr td, .top-left-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  color: #01001d99;
+}
+
+.footer-top .dropdown {
+  width: 190px;
+  height: 43px;
+  border: 2px solid #462686;
+  box-sizing: border-box;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+  padding: 0px 10px 0px 17px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #462686;
+}
+
+.bottom-left ul {
+  list-style: none;
+  padding-left: 0rem;
+}
+
+.bottom-left ul li {
+  display: inline-block;
+  margin-right: 0.3rem;
+}
+
+.bottom-left ul li img {
+  width: 24px;
+  height: 24px;
+}
+
+.bottom-left-head {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 10px;
+  color: #01001d99;
+}
+
+.bottom-left-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  color: #333333cc;
+}
+
+.footer-bottom {
+  border-top: 1px solid #45454521;
+  padding: 1rem 0rem;
+}
+
+.footer-bottom p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  color: #01001d99;
+}
+
 @media screen and (max-width: 399.98px) {
 
 }
@@ -384,7 +451,7 @@ article p {
   }
 
   .hero-text {
-    padding: 0rem 4rem 0rem 0rem;
+    padding: 0rem 5rem 0rem 0rem;
   }
 
 }
