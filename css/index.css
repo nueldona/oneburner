@@ -244,13 +244,14 @@ header {
   margin: 2.5rem auto;
 }
 
-.third-content p {
+.third-content a {
   color: #7837F8;
+  text-decoration: none;
 }
 
 .call-rep-img {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
 }
 
@@ -384,80 +385,4 @@ tr td, .top-left-text {
   font-size: 17px;
   line-height: 20px;
   color: #01001d99;
-}
-
-@media screen and (max-width: 399.98px) {
-
-}
-
-@media screen and (max-width: 575.98px) {
-  .nav-section {
-    padding: 0.3rem 0.5rem;
-  }
-
-  .hero-img {
-    display: none;
-  }
-
-}
-
-@media screen and (min-width: 576px) and (max-width: 767.98px) {
-  .hero-text {
-    padding: 0rem 2rem 0rem 0rem;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .hero-text {
-    /* background: #462686; */
-    padding: 0rem 5rem 0rem 0rem;
-  }
-
-  .hero-text h1 {
-    font-size: 50px;
-  }
-  
-  .hero-text p {
-    font-size: 20px;
-  }
-  
-}
-
-@media screen and (max-width: 991.98px) {
-  .navbar-light .navbar-nav {
-    margin-left: 0rem;
-  }
-
-  .navbar-nav .btn-user {
-    margin-top: 1rem;
-    margin-left: 0rem;
-  }
-
-  .tab {
-    margin: 0 0.6rem !important;
-  }
-  
-  .tab p {
-    font-size: 14px;
-    padding: 0rem 0.6rem;
-  }
-
-}
-
-@media screen and (min-width: 992px) {
-  .btn--share {
-    height: 60px;
-    width: 240px;
-  }
-
-  .hero-text {
-    padding: 0rem 5rem 0rem 0rem;
-  }
-
-}
-
-@media screen and (max-width: 1200px) {
-  .tab {
-    margin: 0 1rem;
-  }
 }
